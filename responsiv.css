@@ -1,0 +1,93 @@
+@media (max-width:414px){
+    .conatiner{
+        width: 100%;
+        margin: 0;
+        padding: 0px;
+    }
+    /* header part */
+    .fbhead-area{
+        display: block;
+    }
+    .fbhead-area .left{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .left h1{
+        font-size: 45px;
+        color: white;
+        font-weight: bold;
+    }
+    .fbhead-area .right{
+        width: 100%;
+    }
+    .right{
+        display: block;
+        text-align: center;
+    }
+
+
+    /* feed part */
+    .feed-area{
+        display: block;
+    }
+    .feed-area .left-feed{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .feed-area .left-feed h2{
+        font-size: 20px;
+    }
+
+    .feed-area .left-feed img{
+        display: none;
+    }
+
+
+    .feed-area .right-feed{
+        width: 100%;
+        display: block;
+    }
+    .feed-area .right-feed h1{
+        font-size: 30px;
+        margin-top: 33px;
+    }
+    .feed-area .right-feed p{
+        font-size: 15px;
+        margin-top: 8px;
+    }
+
+
+
+    .feed-area .right-feed .login-part{
+        margin-top: 5px;
+    
+    }
+    .feed-area .right-feed .login-part .uname{
+        position: relative;
+        box-sizing: border-box;
+    }
+    .feed-area .right-feed .login-part .uname input{
+        width: 48%;
+        margin-right: -3px;
+        margin-left: 1px;
+        padding: 5px 5px;
+        outline: none;
+        font-size: 20px;
+    }
+    .feed-area .right-feed .login-part .uname input:last-child{
+        margin-left: 10px;
+    }
+    .feed-area .right-feed .login-part input{
+        width: 94%;
+        margin-top: 10px;
+        padding: 5px 10px;
+        outline: none;
+        font-size: 20px;
+    }
+    /* button */
+    .btn{
+        text-align: center;
+    }
+}

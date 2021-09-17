@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/* facebook header */
+.fbhead{
+    background-color: #166FE5;
+}
+.fbhead-area{
+    position: relative;
+    display: flex;
+}
+.left{
+    width: 60%;
+    display: block;
+}
+.left h1{
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+    line-height: 61px;
+}
+.right{
+    width: 30%;
+    position: relative;
+    display: flex;
+}
+.right .email{
+    margin-right: 10px;
+}
+.right .pass{
+    margin-right: 10px;
+}
+.right label{
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    color: white;
+}
+.right input{
+    border: 1px solid black;
+    padding: 2px 0;
+    outline: none;
+}
+.right a{
+    margin-top: 5px;
+    margin-bottom: 3px;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.right a:hover{
+    text-decoration: underline;
+}
+.right .login input{
+    margin-top: 29px;
+    padding: 2px 12px;
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+/* FBFeed Design */
+.fbfeed{
+    background-color: #F0F2F5;
+}
+.feed-area{
+    position: relative;
+    display: flex;
+}
+/* left part */
+.left-feed{
+    width: 60%;
+    margin-right: 30px;
+}
+.left-feed h2{
+    font-size: 30px;
+    margin-top: 50px;
+}
+.left-feed img{
+    width: 586px;
+    margin-top: 30px;
+}
+/* right part */
+.right-feed{
+    width: 40%;
+}
+.right-feed h1{
+    font-size: 40px;
+    margin-top: 33px;
+}
+.right-feed p{
+    font-size: 25px;
+    margin-top: 8px;
+}
+/* login */
+.login-part{
+    margin-top: 10px;
+
+}
+.login-part .uname{
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+}
+.login-part .uname input{
+    width: 48%;
+    margin-right: 4px;
+    padding: 5px 10px;
+    outline: none;
+    font-size: 20px;
+}
+.login-part input{
+    width: 94%;
+    margin-top: 10px;
+    padding: 5px 10px;
+    outline: none;
+    font-size: 20px;
+}
+/* birthday */
+
+.birthday{
+    margin-top: 20px;
+}
+.birthday p{
+    margin-bottom: 8px;
+}
+.dob{
+    position: relative;
+    display: flex;
+}
+.dob select{
+    width: 70px;
+    height: 20px;
+    outline: none;
+}
+.dob a{
+    margin-left: 20px;
+    margin-top: -8px;
+    display: block;
+    text-decoration: none;
+    color: rgb(63, 57, 57);
+}
+.dob a:hover{
+    text-decoration: underline;
+}
+
+/* gender */
+
+.gender-part{
+    position: relative;
+    display: flex;
+    margin-top: 17px;
+}
+.male{
+    margin-right: 20px;
+}
+
+/* terms */
+
+.terms{
+    margin-top: 20px;
+}
+.terms p{
+    font-size: 16px;
+}
+
+/* button */
+.btn{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.btn input{
+    width: 230px;
+    padding: 10px 20px;
+    font-size: 22px;
+    border-radius: 8px;
+    background-color: green;
+    color: white;
+    font-weight: 500;
+}
+.btn input:hover{
+    cursor: pointer;
+    background-color: #0a5718;
+}
